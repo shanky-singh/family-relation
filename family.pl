@@ -2,7 +2,7 @@ menu :-
         write('+-----------Main Menu-----------+---------------------Family Members---------------------+'),nl,
         write('|                               |                                                        |'),nl,
         write('| 1. Display Father of?         |-------Male Members--------|-------Female Members-------|'),nl,
-        write('| 2. Display Mother of?         | jack,oliver,ali,james,    | nairobi,helen,sophie,jess, |'),nl,
+        write('| 2. Display Mother of?         | jack,oliver,ali,james,    | monica,helen,sophie,jess, |'),nl,
         write('| 3. Display Grandfather of?    | simon,harry,brad,chad,    | lily                       |'),nl,
         write('| 4. Display Grandmother of?    | ned,denver                |                            |'),nl,
         write('| 5. Display Sister of?         |                           |                            |'),nl,
@@ -35,9 +35,7 @@ female(helen).
 female(sophie).
 female(jess).
 female(lily).
-female(nairobi).
 
-parent_of(nairobi,brad).
 parent_of(monica,brad).
 parent_of(monica,chad).
 parent_of(monica,ned).
